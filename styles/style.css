@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+}
+
+.h1-header{
+    text-align: center;
+    font-size: xx-large;
+}
+
+h1{
+    font-size: large;
+    margin: 50px 20px 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+    padding: 20px;
+
+    color: white;
+    background-color: rgb(255, 68, 0);
+}
+.banner{
+    width: 90%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    min-width: 100px;
+    max-width: 1280px;
+}
+
+.container1{
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+.button-style{
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(226, 226, 226);
+    padding: 5px;
+    margin: 0px auto;
+}
+a:hover{
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    color: white;
+}
